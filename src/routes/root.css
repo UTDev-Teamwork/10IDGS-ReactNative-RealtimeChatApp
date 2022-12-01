@@ -1,0 +1,41 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.sideBar {
+  background-color: #202020;
+  height: 100vh;
+  width: 40%;
+}
+
+.sb-m {
+  padding: 0 1em;
+}
+
+.sideBar-content{
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  width: 100%;
+  padding: 1em;
+  background-color: #4a4a4a;
+  opacity: 1;
+  background: linear-gradient(135deg, #51515155 25%, transparent 15%) -9px 0/
+      18px 18px,
+    linear-gradient(225deg, #515151 25%, transparent 15%) -9px 0/ 18px 18px,
+    linear-gradient(315deg, #51515155 25%, transparent 15%) 0px 0/ 18px 18px,
+    linear-gradient(45deg, #515151 25%, #4a4a4a 15%) 0px 0/ 18px 18px;
+}
+
+.contenido-temp {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}

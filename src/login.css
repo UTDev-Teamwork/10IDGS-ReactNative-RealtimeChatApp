@@ -1,0 +1,49 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-card {
+  width: 35%;
+  height: 50%;
+  background-color: #171717;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 70%;
+  height: 2.5em;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 2.5em;
+  margin: 1em;
+  font-size: 1.5em;
+}
+
+.enter-button{
+  width: 200%;
+  height: 100%;
+}
